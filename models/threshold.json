@@ -1,0 +1,26 @@
+{
+  "main_fee": 5,
+  "threshold": 0.8876326576175743,
+  "by_fee": {
+    "1": {
+      "threshold": 0.11933789589393633,
+      "flagged_on_val": 687,
+      "val_savings": 0.676792501731244
+    },
+    "5": {
+      "threshold": 0.8876326576175743,
+      "flagged_on_val": 53,
+      "val_savings": 0.6124744401357524
+    },
+    "10": {
+      "threshold": 0.8876326576175743,
+      "flagged_on_val": 53,
+      "val_savings": 0.5908083416931769
+    },
+    "25": {
+      "threshold": 0.8876326576175743,
+      "flagged_on_val": 53,
+      "val_savings": 0.5258100463654507
+    }
+  }
+}

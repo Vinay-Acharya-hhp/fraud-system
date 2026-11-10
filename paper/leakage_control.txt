@@ -1,0 +1,3 @@
+B  random split, no oversampling           AUPRC mean 0.7833   per seed: 0.7993, 0.7858, 0.7647
+C1 flawed: SMOTE first, whole test split   AUPRC mean 0.9998   per seed: 0.9998, 0.9997, 0.9999
+C2 flawed: SMOTE first, real rows only     AUPRC mean 0.9133   per seed: 0.9111, 0.8940, 0.9348

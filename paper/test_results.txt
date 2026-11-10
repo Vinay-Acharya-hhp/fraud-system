@@ -1,0 +1,23 @@
+Test set: 56962 rows, 75 frauds. Cost of doing nothing: 7729.26
+AUPRC (threshold-free): 0.7529
+
+fee 1 | cost-based             thr 0.1193  flagged  588  TP  64  FP  524  FN  11
+                               precision 0.109  recall 0.853  F1 0.193  MCC 0.303  cost 2323.90  savings 0.699
+fee 1 | default 0.5            thr 0.5000  flagged  119  TP  58  FP   61  FN  17
+                               precision 0.487  recall 0.773  F1 0.598  MCC 0.613  cost 2755.05  savings 0.644
+
+fee 5 | cost-based             thr 0.8876  flagged   65  TP  55  FP   10  FN  20
+                               precision 0.846  recall 0.733  F1 0.786  MCC 0.787  cost 4207.40  savings 0.456
+fee 5 | default 0.5            thr 0.5000  flagged  119  TP  58  FP   61  FN  17
+                               precision 0.487  recall 0.773  F1 0.598  MCC 0.613  cost 3231.05  savings 0.582
+
+fee 10 | cost-based            thr 0.8876  flagged   65  TP  55  FP   10  FN  20
+                               precision 0.846  recall 0.733  F1 0.786  MCC 0.787  cost 4532.40  savings 0.414
+fee 10 | default 0.5           thr 0.5000  flagged  119  TP  58  FP   61  FN  17
+                               precision 0.487  recall 0.773  F1 0.598  MCC 0.613  cost 3826.05  savings 0.505
+
+fee 25 | cost-based            thr 0.8876  flagged   65  TP  55  FP   10  FN  20
+                               precision 0.846  recall 0.733  F1 0.786  MCC 0.787  cost 5507.40  savings 0.287
+fee 25 | default 0.5           thr 0.5000  flagged  119  TP  58  FP   61  FN  17
+                               precision 0.487  recall 0.773  F1 0.598  MCC 0.613  cost 5611.05  savings 0.274
+
